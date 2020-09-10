@@ -573,7 +573,7 @@ img {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
-	transition: 0.3s linear 0.7s;
+	transition: opacity 0.25s var(--timing-function);
 }
 .backdrop {
 	position: fixed;
