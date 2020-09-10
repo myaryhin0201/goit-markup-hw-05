@@ -190,14 +190,14 @@ img {
 	box-shadow: none;
 	border-radius: 4px;
 
-	transition: background-color 1s var(--timing), box-shadow 1s var(--timing), border-radius 1s var(--timing);
+	transition: background-color 0.25s var(--timing), box-shadow 0.25s var(--timing), border-radius 0.25s var(--timing);
 }
 .hero .button:hover,
 .hero .button:focus {
 	border-radius: 0px;
 	background-color: #188ce8;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	transition: background-color 1s var(--timing), box-shadow 1s var(--timing), border-radius 1s var(--timing);
+	transition: background-color 0.25s var(--timing), box-shadow 0.25s var(--timing), border-radius 0.25s var(--timing);
 }
 .section.feature {
 	padding-bottom: 0;
